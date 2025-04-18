@@ -269,6 +269,7 @@
   }
   .card button {
     width: auto;
+    top: -2em;
     padding: 12px 46px;
     font-weight: 700;
     display: flex;
