@@ -1,0 +1,159 @@
+.central-ajuda{
+    background-color: #F5F5F5 ;
+    margin-top: 2em;
+}
+.final-logo{
+    display: flex;
+    gap: 5em;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    background-color: #F5F5F5;
+    height: 350px;
+    
+}
+
+.final-logo h4{
+    margin-bottom: 10px;
+    font-size: 14px;
+    width: 100%;
+    text-align: left;
+    white-space: nowrap;
+}
+.final-logo__centro{
+    margin-top: 17px;
+}
+.final-logo h5{
+    align-items: center;
+    font-weight: 400;
+    align-items: center;
+    white-space: nowrap;
+
+}
+
+.final-logo__atendimento{
+    margin-top: 10px;
+}
+
+.final-logo__atendimento h6{
+    font-weight: 400;
+
+}
+
+.final-logo__atendimento span{
+  font-weight: 700;
+}
+
+.img-pagamentos{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3em;
+    
+}
+
+.img-pagamentos img{
+    height: 18px;
+    margin-top: -3em;
+    margin-bottom: 3em;
+}
+
+.final-logo__imagens{
+    display: grid;
+}
+
+.final-logo__redesociais{
+   display: flex;
+   gap: 25px;
+   justify-content: initial;
+   margin-top: 25px;
+   height: 20px;
+   
+}
+.seta-baixa{
+    display: none;
+}
+@media screen and (max-width: 428px){
+    .final-logo{
+        display: block;
+        position: relative;
+        top: 2.5em;
+    }
+    .final-logo h4{
+        position: relative;
+        left: 3em;
+        font-size: 16px;
+    }
+    .final-logo h5{
+        display: none;
+    }
+    .final-logo h6{
+        display: none;
+    }
+    .final-logo__imagens{
+        position: relative;
+        margin-left: 7em;
+        margin-bottom: 2.5em;
+    }
+    .final-logo__institucional{
+        border-top: 1px solid #e0e0e0;
+
+    }
+    .final-logo__institucional h4{
+        margin-top: 1em;
+    }
+    .final-logo__institucional img{
+        margin-top: 1.3em;
+        right: 1em;
+        position: relative;
+        max-height: 0.6em;
+    }
+    .final-logo__atendimento img{
+        margin-top: 0.5em;
+        right: 1em;
+        position: relative;
+        max-height: 0.6em;
+    }
+    .final-logo__central img{
+        margin-top: 1.3em;
+        right: 1em;
+        position: relative;
+        max-height: 0.6em;
+    }
+    .final-logo__institucional, .final-logo__central, .final-logo__central, .final-logo__atendimento{
+        border-bottom: 1px solid #e0e0e0;
+        border-color: #DDDDDD;
+        display: flex;
+        
+    }
+    .final-logo__central h4{
+        bottom: 0.3em;
+        
+    }
+    .img-pagamentos{
+        display: block;
+        position: relative;
+        max-width: 350px;
+        left: 1.5em;
+        top: 2em
+    }
+    .img-pagamentos img{
+        text-align: center;
+        margin-left: 1.5em;
+        position: relative;
+        text-align: center;
+        
+    }
+    .img-pagamentos__top{
+       position: relative;
+       bottom: -1em;
+       left: 2em;
+    }
+    .central-ajuda{
+        height: 440px
+    }
+    .seta-baixa{
+        display: block;
+    }
+}

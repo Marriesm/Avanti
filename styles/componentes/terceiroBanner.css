@@ -1,0 +1,121 @@
+.bannerThree{
+    display: flex;
+    gap: 10px;
+    max-height: 600px;
+    width: auto;
+    margin-top: 2em;
+    background-color: #DEDEDE;
+    justify-content: center;
+    position: relative;
+    
+    
+}
+
+.bannerThree img{
+    height: 520px;
+}
+
+.bannerThree-texto{
+    justify-items: center;
+    position: relative;
+    left: -17em;
+    max-width: 400px;
+    margin-top: 4em;
+    
+    
+    
+}
+.caneca-terceira{
+    height: 500px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+.bannerThree-texto img{
+    height: 70px;
+    margin-bottom: 5em;
+    margin-top: 0.2em;
+    
+}
+.caneca-terceira{
+    display: none;
+}
+.caneca-terceira__two{
+    position: relative;
+    bottom: 34em;
+    left: 28em;
+    width: 450px;
+    min-height: 550px;
+}
+.banner-combo{
+    margin-top: -29px;
+    align-items:normal;
+    margin-bottom: 1em;
+    display: flex;
+    gap: 10px;
+    color: #4F4F4F;
+}
+
+.banner-combo img{
+    align-items: center;
+}
+.bannerThree-texto h3{
+    align-items: center;
+    font-size: 25px;
+    margin-bottom: 2em;
+    margin-top: 0;
+    color: #4F4F4F;
+}
+
+@media screen and (max-width: 428px){
+
+   .bannerThree{
+    display: block;
+    background-color: #DEDEDE;
+    position: relative;
+    margin-top: 1em;
+    padding: 1em 0 5.5em;
+    height: auto;
+   }
+   
+   .bannerThree-texto{
+    font-size: 13px;
+    position: relative;
+    margin-top: 20em;
+    top: -6em;
+    left: 1em;
+    height: 350px;
+    width: 350px
+    
+   }
+   .caneca-terceira{
+    display: block;
+    position: relative;
+    top: -13em;
+    left: -1emem;
+    width: 340px;
+    min-height: 100%;
+ }
+   .bannerThree-texto h3{
+    color: black;
+    position: relative;
+    margin-top: -9em;
+   }
+   .banner-combo{
+    margin-top: -29px;
+    align-items:normal;
+    margin-bottom: -3.5em;
+    color: #000000;
+   }
+   .bannerThree-texto img{
+    height: 60px;
+  
+   }
+   .caneca-terceira__two{
+     display: none;
+   }
+   .card{
+    display: block;
+    margin-left: -0.5em;
+   }
+}

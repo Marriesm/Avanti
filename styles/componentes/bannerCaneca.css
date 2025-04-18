@@ -1,0 +1,76 @@
+.bannerTwo{
+    margin-top: 4em;
+    display: flex;
+    gap: 1.5em;
+    max-width: 74em;
+}
+
+.banner-caneca{
+    display:flow-root;
+    margin-left: 25%;
+    
+}
+
+.banner-caneca img{
+    background-color: #C2C2C2;
+    height: 495px;
+    
+}
+
+.bannerTwo-texto h3{
+    font-size: 25px;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    letter-spacing: 4%;
+}
+
+.bannerTwo-texto p{
+    letter-spacing: 5%;
+    margin-bottom: 5px;
+    font-size: 14px;
+    letter-spacing: 5%;
+}
+.bannerTwo-texto__mobile{
+    display: none;
+}
+@media screen and (max-width: 428px){
+     .bannerTwo{
+        display: block;
+        width: 100%;
+     }
+     .banner-caneca img{
+        max-width: 30em;
+        margin-left: -6.5em;
+        position: relative;
+        height: 25em;
+        justify-content: left;
+        padding: 0 1em 1em;
+        
+     }
+   
+     .bannerTwo-texto h3{
+        margin: 0.5em;
+     }
+     .bannerTwo-texto__desketop{
+        display: none;
+     }
+     .bannerTwo-texto__mobile{
+        display: block;
+        width: 330px;
+        margin: 1em;
+        
+     }
+}
+@media screen and (max-width: 391px){
+  
+    .banner-caneca img{
+      
+       margin-left: -6.5em;
+       position: relative;
+       height: 25em;
+       justify-content: left;
+       padding: 0 1em 0em 1em;
+       
+    }
+  
+}

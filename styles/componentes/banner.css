@@ -1,0 +1,118 @@
+.banner{
+    background-color: var(--cor-secundaria);
+    align-items: center;
+    margin-top: 10px;
+
+    height: 510px;
+    font-weight: 400;
+    
+}
+.banner-texto h2{
+    display: none;
+}
+.banner-principal img{
+    justify-content: center;
+    margin-left: 15em;
+    
+    
+}
+.banner-texto{
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    
+}
+
+h1{
+    font-weight: 400;
+    font-size: 70px;
+}
+.banner-texto__span{
+     font-weight: 700;
+}
+
+.banner-texto P {
+    gap: 5px;
+    color: var(--cor-primaria);
+    font-size: 18px;
+    letter-spacing: 5px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.banner-texto__descricao{
+    position: relative;
+    margin-top: -1.2em;
+    display:flex;
+    justify-content: center;
+    margin-left: 2.5rem;
+    letter-spacing: normal;
+    font-weight: 700;
+    color: var(--cor-primaria);
+    font-size: 40px;     
+    
+}
+.banner-texto__paragrafotwo{
+    display: none;
+}
+
+@media screen and (max-width: 428px){
+    .banner{
+        height: 300px;
+    }
+    .banner img{
+        max-height: 300px;
+        position: relative;
+        left: -26em;
+        
+    }
+    .banner-texto{
+            height: 136px;
+            font-size: 10px;
+            position: absolute;
+            top: 40%;
+            left: 55%;
+            
+        
+    }
+    .banner-texto__paragrafo{
+        display: none;
+    }
+    .banner-texto h1{
+        position: relative;
+        left: 2em;
+        font-size: 10px;
+    }
+    .banner-texto h2{
+        top: 3.8em;
+        left: 1.8em;
+        font-size: 11px;
+        position: relative;
+        display: block;
+        font-weight: 700;
+        color: var(--cor-primaria);
+    }
+    .banner-texto__span{
+        font-size: 40px;
+   }
+   .banner-texto__sale{
+        position: relative;
+        font-size: 40px;
+        top: 1em;
+        left: -2.8em;
+   }
+   .banner-texto__descricao{
+     display: block;
+     font-size: 30px;
+   }
+   .banner-texto__paragrafotwo{
+    display: block;
+    position: relative;
+    top: 4.6em;
+    left: -0.8em;
+    font-size: 28px;
+   }
+   
+}
+
+

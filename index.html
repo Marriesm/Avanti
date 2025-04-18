@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avanti</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">    
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="top-banner">
+            <p>Ganhe <strong class="top-banner__preco">R$10,00</strong> de desconto no seu primeiro pedido.<strong class="top-cupom" >
+                Utilize o cupom <em>DESCONTO10</em></strong></p>
+             
+          </div>
+        <div class="cabecalho-logo">
+            <img src="/img/categorias.png" alt="menu" class="categorias-menu">
+            <img src="img/logo.png" alt="imagem logo" class="cabecalho-logo__img">
+            <div  class="cabecalho-logo__logo">
+            <input type="text" placeholder="Digite aqui o que você procura" class="cabecalho-logo__pesquisa" id="campo-pesquisa"/>
+            <button type="submit" class="button-pesquisa" id="botao-pesquisa">
+                <img src="/img/lupa.png" alt="Buscar" />
+              </button>
+            </div>
+            <p id="resultado-pesquisa" class="resultado-pesquisa"></p>
+            
+        <div class="cabecalho-perfil">
+              <img src="img/perfil.png">
+              <span>Olá,<br> Nome cliente!</br></span>
+         </div>
+        <div class="cabeçalho-carrinho">
+              <img src="img/carrinho.png" alt="Carrinho" class="carrinho-img">
+              <div class="itens-carrinho">
+              <span id="contador-carrinho"> 0 </span>
+        </div>
+        </div>
+        </div>
+        
+        <nav class="menu">
+            <ul class="menu-bar">
+              <li class="menu-item">
+                <img src="/img/categorias.png" alt="menu" >
+                <a href="#" class="a-principal">Todas as Categorias</a>
+                <div class="dropdown">
+                  <div class="dropdown-column">
+                    <ul class="dropdown-departamento">
+                        <h4 class="h-inicial">Departamento<img> </h4>
+                        <img src="./img/arrowazul.png" alt="seta" class="seta-inicial" />
+             
+                    <li class="dropdown-departamento__itens"><a href="#">
+                        Departamento
+                        <img src="/img/arrow.png" alt="seta" class="seta-menu" /></a>
+                    </li>
+                    <li class="dropdown-departamento__itens"><a href="#">
+                        Departamento
+                        <img src="/img/arrow.png" alt="seta" class="seta-menu" /></a>
+                    </li>
+                    <li class="dropdown-departamento__itens"><a href="#">
+                        Departamento
+                        <img src="/img/arrow.png" alt="seta" class="seta-menu" /></a>
+                    </li>
+                    <li class="dropdown-departamento__itens"><a href="#">
+                        Departamento
+                        <img src="/img/arrow.png" alt="seta" class="seta-menu" /></a>
+                    </li>
+                    <li class="dropdown-departamento__itens"><a href="#">
+                        Departamento
+                        <img src="/img/arrow.png" alt="seta" class="seta-menu" /></a>
+                    </li>
+                    <li class="dropdown-departamento__itens"><a href="#">
+                        Departamento
+                        <img src="/img/arrow.png" alt="seta" class="seta-menu" /></a>
+                    </li>
+                    <li class="dropdown-departamento__itens"><a href="#">
+                        Departamento
+                        <img src="/img/arrow.png" alt="seta" class="seta-menu" /></a>
+                    </li>
+                    <li class="dropdown-departamento__itens"><a href="#">
+                        Departamento
+                        <img src="/img/arrow.png" alt="seta" class="seta-menu" /></a>
+                    </li>
+                    <li class="dropdown-departamento__itens"><a href="#">
+                        Departamento
+                        <img src="/img/arrow.png" alt="seta" class="seta-menu" /></a>
+                    </li>
+                    <li class="dropdown-departamento__itens"><a href="#">
+                        Departamento
+                        <img src="/img/arrow.png" alt="seta" class="seta-menu" /></a>
+                    </li>
+                    <li class="dropdown-departamento__itens"><a href="#">
+                        Departamento
+                        <img src="/img/arrow.png" alt="seta" class="seta-menu" /></a>
+                    </li>
+                    <li class="dropdown-departamento__itens"><a href="#">
+                        Departamento
+                        <img src="/img/arrow.png" alt="seta" class="seta-menu" /></a>
+                    </li>
+                    <li class="dropdown-departamento__itens"><a href="#">
+                        Departamento
+                        <img src="/img/arrow.png" alt="seta" class="seta-menu" /></a>
+                    </li><li class="dropdown-departamento__itens"><a href="#">
+                        Departamento
+                        <img src="/img/arrow.png" alt="seta" class="seta-menu" /></a>
+                    </li>
+                    <li class="dropdown-departamento__itens"><a href="#">
+                        Departamento
+                        <img src="/img/arrow.png" alt="seta" class="seta-menu" /></a>
+                    </li>
+                    <li class="dropdown-departamento__itens"><a href="#">
+                        Departamento
+                        <img src="/img/arrow.png" alt="seta" class="seta-menu" /></a>
+                    </li>
+                      
+
+                    </ul>
+                  </div>
+
+                  <div class="dropdown-column">
+                    <h4>Categoria</h4>
+                    <ul>
+                      <li class="dropdown-column__itens"><a href="#">Categoria</a></li>
+                      <li class="dropdown-column__itens"><a href="#">Categoria</a></li>
+                      <li class="dropdown-column__itens"><a href="#">Categoria</a></li>
+                      <li class="dropdown-column__itens"><a href="#">Categoria</a></li>
+                      <li class="dropdown-column__itens"><a href="#">Categoria</a></li>
+                      <li class="dropdown-column__itens"><a href="#">Categoria</a></li>
+                      <li class="dropdown-column__itens"><a href="#">Categoria</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="dropdown-column">
+                    <h4>Categoria</h4>
+                    <ul class="dropdown-column__itens">
+                      <li class="dropdown-column__itens"><a href="#">Categoria</a></li>
+                      <li class="dropdown-column__itens"><a href="#">Categoria</a></li>
+                      <li class="dropdown-column__itens"><a href="#">Categoria</a></li>
+                      <li class="dropdown-column__itens"><a href="#">Categoria</a></li>
+                      <li class="dropdown-column__itens"><a href="#">Categoria</a></li>
+                      <li class="dropdown-column__itens"><a href="#">Categoria</a></li>
+                      <li class="dropdown-column__itens"><a href="#">Categoria</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="dropdown-column">
+                    <h4>Categoria</h4>
+                    <ul>
+                      <li class="dropdown-column__itens"><a href="#">Categoria</a></li>
+                      <li class="dropdown-column__itens"><a href="#">Categoria</a></li>
+                      <li class="dropdown-column__itens"><a href="#">Categoria</a></li>
+                      <li class="dropdown-column__itens"><a href="#">Categoria</a></li>
+                      <li class="dropdown-column__itens"><a href=              
+                        "#">Categoria</a></li>
+                      <li class="dropdown-column__itens"><a href="#">Categoria</a></li>
+                      <li class="dropdown-column__itens"><a href="#">Categoria</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="dropdown-column__maior">
+                    <img src="/img/imgmenu.png" alt="Produtos novos" class="img-maior"/>
+                  </div>
+                  </li>
+                </div>
+                
+                <ul class="menu-bar">
+                    <li class="menu-item">
+                        <a href="#" class="a-principal__dois">Departamento</a>
+                        <div class="dropdown">
+                            <div class="dropdown-column">
+                                <h3>Departamento</h3>
+                                <h4>Categoria </h4>
+                                <ul class="dropdown-departamentodois">
+                                  <li class="dropdown-departamento__dois"><a href="#">Categoria</a></li>
+                                  <li class="dropdown-departamento__dois"><a href="#">Categoria</a></li>
+                                  <li class="dropdown-departamento__dois"><a href="#">Categoria</a></li>
+                                  <li class="dropdown-departamento__dois"><a href="#">Categoria</a></li>
+                                  <li class="dropdown-departamento__dois"><a href="#">Categoria</a></li>
+                                  <li class="dropdown-departamento__dois"><a href="#">Categoria</a></li>
+                                  <li class="dropdown-departamento__dois"><a href="#">Categoria</a></li>
+                                  
+                                  
+                            </div>
+                            <div class="dropdown-column">
+                                <br>
+                                <h4>Categoria</h4>
+                                <ul class="dropdown-column__itens">
+                                  <li class="dropdown-column__itens"><a href="#">Categoria</a></li>
+                                  <li class="dropdown-column__itens"><a href="#">Categoria</a></li>
+                                  <li class="dropdown-column__itens"><a href="#">Categoria</a></li>
+                                  <li class="dropdown-column__itens"><a href="#">Categoria</a></li>
+                                  <li class="dropdown-column__itens"><a href="#">Categoria</a></li>
+                                  <li class="dropdown-column__itens"><a href="#">Categoria</a></li>
+                                  <li class="dropdown-column__itens"><a href="#">Categoria</a></li>
+                                </ul>
+                              </div>
+                              <div class="dropdown-column">
+                                <br>
+                                <h4>Categoria</h4>
+                                <ul class="dropdown-column__itens">
+                                  <li class="dropdown-column__itens"><a href="#">Categoria</a></li>
+                                  <li class="dropdown-column__itens"><a href="#">Categoria</a></li>
+                                  <li class="dropdown-column__itens"><a href="#">Categoria</a></li>
+                                  <li class="dropdown-column__itens"><a href="#">Categoria</a></li>
+                                  <li class="dropdown-column__itens"><a href="#">Categoria</a></li>
+                                  <li class="dropdown-column__itens"><a href="#">Categoria</a></li>
+                                  <li class="dropdown-column__itens"><a href="#">Categoria</a></li>
+                                </ul>
+                                
+                                    <img src="/img/imgmenu.png" alt="Produtos novos" class="dropdown-column__imgdois"/>
+                                  </div>
+                              </div>
+                        </div>
+                    </li>
+                    
+                </ul>
+
+                <li class="menu-ul__li">Departamento</li>
+                <li class="menu-ul__li">Departamento</li>
+                <li class="menu-ul__li">Departamento</li>
+                <li class="menu-ul__li">Departamento</li>
+                <li class="menu-ul__li">Departamento</li>
+                <li class="menu-ul__li">Departamento</li>
+                <li class="menu-ul__li">Departamento</li>
+           
+            
+          </nav>
+              
+        
+    </header>
+
+    <section class="banner">
+        <div class="banner-principal">
+            <img src="./img/cadeira.png" alt="cadeira">
+            <div class="banner-texto">
+                <h1 ><span class="banner-texto__span">SUPER</span><span class="banner-texto__sale">SALE</span></h1>
+                <h2>SELECTED ITEMS UP TO</h2>
+                <p class="banner-texto__paragrafo"> ITENS SELECIONADOS COM ATÉ <span class="banner-texto__descricao"><br>50%OFF<br></span>  </p>
+                <p class="banner-texto__paragrafotwo"> <span class="banner-texto__descricao">50%OFF</span></p>
+            </div>
+        </div>
+    </section>
+    <section>
+      <section class="carrossel-container">
+        <h2>Lançamentos <span class="vermais">Ver mais </span></h2>
+        <a href="#" class="carrossel-vermais">Ver mais</a>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <!-- Produto 1 -->
+                <div class="swiper-slide">
+                    <div class="card">
+                        <span class="tag">NOVO</span>
+                        <img src="./img/produtocamisa.png" alt="Produto 1">
+                        <h3>Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit</h3>
+                        <p class="preco-antigo">R$ 100,00</p>
+                        <p class="preco-atual">R$ 79,90</p>
+                        <p class="parcelamento">Ou em até <span>10x de R$ 7,90</span></p>
+                        <a href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51"
+                        class="card-ancora">10% OFF</a>
+                        <button class="botao-comprar">Comprar</button>
+                    </div>
+                </div>
+                <!-- Produto 2 -->
+                <div class="swiper-slide">
+                    <div class="card">
+                        <span class="tag">NOVO</span>
+                        <img src="./img/produtocamisa.png" alt="Produto 2">
+                        <h3>Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit</h3>
+                        <p class="preco-antigo">R$ 100,00</p>
+                        <p class="preco-atual">R$ 79,90</p>
+                        <p class="parcelamento">Ou em até <span>10x de R$ 7,90</span></p>
+                        <a href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51"
+                        class="card-ancora">10% OFF</a>
+                        <button class="botao-comprar">Comprar</button>
+                    </div>
+                </div>
+                <!-- Produto 3 -->
+                <div class="swiper-slide">
+                    <div class="card">
+                        <span class="tag">NOVO</span>
+                        <img src="./img/produtocamisa.png" alt="Produto 3">
+                        <h3>Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit</h3>
+                        <p class="preco-antigo">R$ 100,00</p>
+                        <p class="preco-atual">R$ 79,90</p>
+                        <p class="parcelamento">Ou em até <span>10x de R$ 7,90</span></p>
+                        <a href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51"
+                        class="card-ancora">10% OFF</a>
+                        <button class="botao-comprar">Comprar</button>
+                    </div>
+                </div>
+                <!-- Produto 4 -->
+                <div class="swiper-slide">
+                    <div class="card">
+                        <span class="tag">NOVO</span>
+                        <img src="./img/produtocamisa.png" alt="Produto 4">
+                        <h3>Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit</h3>
+                        <p class="preco-antigo">R$ 100,00</p>
+                        <p class="preco-atual">R$ 79,90</p>
+                        <p class="parcelamento">Ou em até <span>10x de R$ 7,90</span></p>
+                        <a href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51"
+                        class="card-ancora">10% OFF</a>
+                        <button class="botao-comprar">Comprar</button>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="card">
+                      <span class="tag">NOVO</span>
+                      <img src="./img/produtocamisa.png" alt="Produto 4">
+                      <h3>Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit</h3>
+                      <p class="preco-antigo">R$ 100,00</p>
+                      <p class="preco-atual">R$ 79,90</p>
+                      <p class="parcelamento">Ou em até <span>10x de R$ 7,90</span></p>
+                      <a href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51"
+                      class="card-ancora">10% OFF</a>
+                      <button class="botao-comprar">Comprar</button>
+                  </div>
+                
+              </div>
+              <div class="swiper-button-prev custom-prev"></div>
+              <div class="swiper-button-next custom-next"></div>
+              <div class="custom-prev"><img src="./img/setaesquerda.png" class="img-button-esquerda"></div> <!-- Seta personalizada -->
+              <div class="custom-next"><img src="./img/setadireita.png"></div> <!-- Seta personalizada -->
+            </div>
+    
+    
+            <!-- Paginação -->
+            <div class="swiper-pagination"></div>
+            
+        </div>
+        
+    </section>
+    <section class="bannerTwo">
+       <div class="banner-caneca">
+        <img src="/img/canecavanti.png" alt="caneca" >
+        </div>
+        <div class="bannerTwo-texto">
+        <h3>LOREM IPSUM</h3>
+        <p class="bannerTwo-texto__desketop">Duis consectetur metus nec lacus auctor dignissim. Mauris vitae finibus dui.
+             Mauris laoreet lacus ut eleifend viverra.
+              Cras efficitur volutpat dui, in lobortis metus lacinia sit amet.
+               Sed lacinia pharetra magna, vel pulvinar ligula hendrerit a.
+                Maecenas fringilla porttitor tortor eget lacinia.
+                 Donec sollicitudin euismod orci, auctor fringilla magna consequat interdum. 
+                 Fusce sagittis elit a libero commodo egestas efficitur id augue.</p>
+        </p>
+        <p class="bannerTwo-texto__desketop">
+            Duis consectetur metus nec lacus auctor dignissim. Mauris vitae finibus dui.
+             Mauris laoreet lacus ut eleifend viverra. 
+             Cras efficitur volutpat dui, in lobortis metus lacinia sit amet.
+              Sed lacinia pharetra magna, vel pulvinar ligula hendrerit a. 
+              Maecenas fringilla porttitor tortor eget lacinia.
+               Donec sollicitudin euismod orci, auctor fringilla magna consequat interdum.
+                Fusce sagittis elit a libero commodo egestas efficitur id augue.   
+        </p>
+        <p class="bannerTwo-texto__mobile">
+            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
+             nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, 
+             pretium quis, sem. Nulla consequat massa quis enim.
+        </p>
+        <p class="bannerTwo-texto__mobile">
+            Cras dignissim est et pellentesque tincidunt. Praesent bibendum quis velit a 
+            aliquam. Ut vestibulum turpis eget mi iaculis ullamcorper. Curabitur nec metus
+             sed tortor sollicitudin porta nec eu enim. Ut fermentum scelerisque tortor 
+             mollis volutpat. Mauris iaculis magna nisl, vel porttitor augue placerat et.
+        </p>
+
+        </div>
+    
+    </section>
+    <section class="bannerThree">
+        <div class="bannerThree-texto">
+            <img src="/img/terceirobanner.png" alt="caneca/bannesterceiro" class="caneca-terceira">
+            <h3>LOREM IPSUM</h3>
+            <div class="banner-combo">
+                <img src="/img/CirculoIcone.png">
+                <p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
+                     nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+                      pretium quis, sem. </p>
+
+            </div>
+            <div class="banner-combo">
+                <img src="/img/CirculoIcone.png">
+                <p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
+                    nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+                     pretium quis, sem. </p>
+
+            </div>
+            <div class="banner-combo">
+                <img src="/img/CirculoIcone.png" >
+                <p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
+                    nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+                     pretium quis, sem.</p>
+
+            </div>
+            <img src="/img/terceirobanner.png" alt="caneca/bannesterceiro" class="caneca-terceira__two">
+        </div>
+
+       
+        </div>
+
+    </section>
+    <section class="bannerTwo">
+        <div class="banner-caneca">
+         <img src="/img/canecavanti.png" alt="caneca" >
+         </div>
+         <div class="bannerTwo-texto">
+         <h3>LOREM IPSUM</h3>
+         <p class="bannerTwo-texto__desketop">Duis consectetur metus nec lacus auctor dignissim. Mauris vitae finibus dui.
+              Mauris laoreet lacus ut eleifend viverra.
+               Cras efficitur volutpat dui, in lobortis metus lacinia sit amet.
+                Sed lacinia pharetra magna, vel pulvinar ligula hendrerit a.
+                 Maecenas fringilla porttitor tortor eget lacinia.
+                  Donec sollicitudin euismod orci, auctor fringilla magna consequat interdum. 
+                  Fusce sagittis elit a libero commodo egestas efficitur id augue.</p>
+         </p>
+         <p class="bannerTwo-texto__desketop">
+             Duis consectetur metus nec lacus auctor dignissim. Mauris vitae finibus dui.
+              Mauris laoreet lacus ut eleifend viverra. 
+              Cras efficitur volutpat dui, in lobortis metus lacinia sit amet.
+               Sed lacinia pharetra magna, vel pulvinar ligula hendrerit a. 
+               Maecenas fringilla porttitor tortor eget lacinia.
+                Donec sollicitudin euismod orci, auctor fringilla magna consequat interdum.
+                 Fusce sagittis elit a libero commodo egestas efficitur id augue.   
+         </p>
+         <p class="bannerTwo-texto__mobile">
+            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
+             nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, 
+             pretium quis, sem. Nulla consequat massa quis enim.
+        </p>
+        <p class="bannerTwo-texto__mobile">
+            Cras dignissim est et pellentesque tincidunt. Praesent bibendum quis velit a 
+            aliquam. Ut vestibulum turpis eget mi iaculis ullamcorper. Curabitur nec metus
+             sed tortor sollicitudin porta nec eu enim. Ut fermentum scelerisque tortor 
+             mollis volutpat. Mauris iaculis magna nisl, vel porttitor augue placerat et.
+        </p>
+ 
+         </div>
+     
+     </section>
+     <section>
+        <section class="carrossel-container2">
+          <h2>Lançamentos <span class="vermais">Ver mais </span></h2>
+          <div class="swiper-container">
+              <div class="swiper-wrapper">
+                  <!-- Produto 1 -->
+                  <div class="swiper-slide">
+                      <div class="card">
+                          <span class="tag">NOVO</span>
+                          <img src="./img/produtocamisa.png" alt="Produto 1">
+                          <h3>Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit</h3>
+                          <p class="preco-antigo">R$ 100,00</p>
+                          <p class="preco-atual">R$ 79,90</p>
+                          <p class="parcelamento">Ou em até <span>10x de R$ 7,90</span></p>
+                          <a href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51"
+                          class="card-ancora">10%OFF</a>
+                          <button class="botao-comprar">Comprar</button>
+                      </div>
+                  </div>
+                  <!-- Produto 2 -->
+                  <div class="swiper-slide">
+                      <div class="card">
+                          <span class="tag">NOVO</span>
+                          <img src="./img/produtocamisa.png" alt="Produto 2">
+                          <h3>Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit</h3>
+                          <p class="preco-antigo">R$ 100,00</p>
+                          <p class="preco-atual">R$ 79,90</p>
+                          <p class="parcelamento">Ou em até <span>10x de R$ 7,90</span></p>
+                          <a href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51"
+                          class="card-ancora">10%OFF</a>
+                          <button class="botao-comprar">Comprar</button>
+                      </div>
+                  </div>
+                  <!-- Produto 3 -->
+                  <div class="swiper-slide">
+                      <div class="card">
+                          <span class="tag">NOVO</span>
+                          <img src="./img/produtocamisa.png" alt="Produto 3">
+                          <h3>Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit</h3>
+                          <p class="preco-antigo">R$ 100,00</p>
+                          <p class="preco-atual">R$ 79,90</p>
+                          <p class="parcelamento">Ou em até <span>10x de R$ 7,90</span></p>
+                          <a href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51"
+                          class="card-ancora">10%OFF</a>
+                          <button class="botao-comprar">Comprar</button>
+                      </div>
+                  </div>
+                  <!-- Produto 4 -->
+                  <div class="swiper-slide">
+                      <div class="card">
+                          <span class="tag">NOVO</span>
+                          <img src="./img/produtocamisa.png" alt="Produto 4">
+                          <h3>Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit</h3>
+                          <p class="preco-antigo">R$ 100,00</p>
+                          <p class="preco-atual">R$ 79,90</p>
+                          <p class="parcelamento">Ou em até <span>10x de R$ 7,90</span></p>
+                          <a href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51"
+                          class="card-ancora">10%OFF</a>
+                          <button class="botao-comprar">Comprar</button>
+                      </div>
+                  </div>
+  
+                  <div class="swiper-slide">
+                    <div class="card">
+                        <span class="tag">NOVO</span>
+                        <img src="./img/produtocamisa.png" alt="Produto 4">
+                        <h3>Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit</h3>
+                        <p class="preco-antigo">R$ 100,00</p>
+                        <p class="preco-atual">R$ 79,90</p>
+                        <p class="parcelamento">Ou em até <span>10x de R$ 7,90</span></p>
+                        <a href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51"
+                        class="card-ancora">10%OFF</a>
+                        <button class="botao-comprar">Comprar</button>
+                    </div>
+                  
+                </div>
+                <div class="swiper-button-prev custom-prev"></div>
+                <div class="swiper-button-next custom-next"></div>
+                <div class="custom-prev"><img src="./img/setaesquerda.png" class="img-button-esquerda"></div> <!-- Seta personalizada -->
+                <div class="custom-next"><img src="./img/setadireita.png"></div> <!-- Seta personalizada -->
+              </div>
+      
+      
+              <!-- Paginação -->
+              <div class="swiper-pagination2"></div>
+              
+          </div>
+          
+      </section>
+      <section calss="fundo-avanti">
+        <div class="fundo-avanti__disponibilidade">
+            <img src="/img/fundoAvanti.png" alt="fundo Avanti" class="fundo-avanti__desketop">
+            <img src="/img/fundoavanti-two.png" alt="fundo Avanti" class="fundo-avanti__mobile">
+            <p>Entre em contato conosco e verifique a disponibilidade para sua região!</p>
+        </div>
+      </section>
+
+      <section class="cadastro">
+        <div class="cadastro-dados">
+            <h4>Cadastre-se na nossa <span>newsletter</span></h4>
+            <div class="cadastro-dados__inputs">
+                <input type="text" placeholder="Digite seu nome" class="cadastro-input"/>
+                <input type="email" placeholder="Digite seu e-mail" class="cadastro-input"/>
+                <label class="checkbox">
+                    <input type="checkbox" />
+                    Estou de acordo com a <a href="#">Política de Privacidade</a>
+                  </label>
+                <button>Cadastrar</button>
+            </div>
+        </div>
+      </section>
+
+      <section class="central-ajuda">
+        <div class="final-logo">
+            <div class="final-logo__imagens">
+                <img src="img/logo.png" alt="Logo Avanti">
+                <div class="final-logo__redesociais">
+                <img src="/img/instagram.png" alt="Instagram">
+                <img src="/img/facebook.png" alt="Facebook">
+                <img src="/img/youtube.png" alt="Youtube">
+                <img src="/img/tiktok.png" alt="TikTok">
+                </div>
+            </div>
+            
+            <div class="final-logo__institucional">
+                <h4> Institucional</h4>
+                <h5> Sobre Nós</h5>
+                <h5> Nossas Lojas</h5>
+                <h5>Privacidade e Segurança</h5>
+                <h5>Termos e Condições</h5>
+                <img src="/img/seta-para-baixo.png" alt="seta para baixo" class="seta-baixa">
+            </div>
+            <div class="final-logo__central">
+                <h4 class="final-logo__centro"> Central de ajuda </h4>
+                <h5> Fale Conosco</h5></h5>
+                <h5> Frete e Entrega</h5>
+                <h5> Trocas e Devoluções</h5>
+                <h5> Formas de Pagamento</h5>
+                <img src="/img/seta-para-baixo.png" alt="seta para baixo" class="seta-baixa">
+                <h5> FAQ</h5>
+            </div>
+            <div class="final-logo__atendimento">
+                <h4> Atendimento </h4>
+                <h5><span>Telefone:</span> (00) 1234-5678</h5>
+                <h5><span>E-mail:</span> exemplo@exemplo.com.br</h5>
+                <h5><span>Horário de atendimento:</span></h5>
+                <h6>Segunda a Sábado: 07h00 às 23h00</h5>
+                <h6>Domingos e Feriados:  07h00 às 21h00</h5>
+                    <img src="/img/seta-para-baixo.png" alt="seta para baixo" class="seta-baixa">
+            </div>
+        </div>
+        <div class="img-pagamentos">
+            <img src="/img/amex.png" alt="amex imagem">
+            <img src="/img/mastecard.png" alt="mastecard">
+            <img src="/img/visa.png" alt="visa">
+            <img src="/img/hipercard.png" alt="hipercard">
+            <img src="/img/elo.png" alt="elo">
+            <img src="/img/c.png" alt="" class="img-pagamentos__top">
+            <img src="/img/paypal.png" alt="paypal" class="img-pagamentos__top" >
+            <img src="/img/pix.png" alt="pix" class="img-pagamentos__top">
+            <img src="/img/boleto.png" alt="boleto" class="img-pagamentos__top">
+        </div>
+        
+      </section>
+      <section class="footer">
+         <div class="footer-final">
+           <p class="footer-final__desketop">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+             sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+              magna aliquam erat volutpat. Ut wisi enim ad minim veniam, 
+              quis nostrud exerci tation ullamcorper suscipit lobortis nisl 
+              ut aliquip ex ea commodo consequat. Duis autem vel eum iriure 
+              dolor in hendrerit in vulputate velit esse molestie consequat,
+               vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et
+                iusto odio dignissim qui blandit praesent luptatum zzril delenit augue
+                 duis dolore te feugait nulla facilisi.</p>
+            <p class="footer-final__mobile">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                 sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna 
+                 aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci.
+                 </p>
+           <div class="footer-imagens">
+                <img src="/img/lets.png" alt="lets">
+                <img src="/img/vtex.png" alt="vtex">
+                <img src="/img/logofooter.png" alt="logo">
+                <img src="/img/vetex2.png" alt="vetex2">
+               
+
+           </div>
+         </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 'auto', /* Exibir 4 produtos por vez */
+            spaceBetween: 16    , /* Espaço entre os produtos */
+            loop: true, 
+            watchOverflow: true,/* Faz o carrossel girar continuamente */
+            navigation: {
+                nextEl: '.custom-prev',
+                prevEl: '.custom-next',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                
+                clickable: true,
+            },
+            breakpoints: {
+                1024: { slidesPerView: 4 }, /* Desktop */
+                768: { slidesPerView: 2 }, /* Tablet */
+                480: { slidesPerView: 2 }, /* Celular */
+            }
+        });
+    </script>
+    <script src="/script.js"></script>
+</body>
+</html>

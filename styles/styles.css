@@ -1,0 +1,44 @@
+
+@import url("./componentes/header.css");
+@import url("./componentes/banner.css");
+@import url("./componentes/carrossel.css");
+@import url("./componentes/bannerCaneca.css");
+@import url("./componentes/terceiroBanner.css");
+@import url("./componentes/fundoAvanti.css");
+@import url("./componentes/cadastro.css");
+@import url("./componentes/central-ajuda.css");
+@import url("./componentes/footer.css");
+
+
+
+:root{
+    --cor-de-fundo: #FFFFFF;
+    --cor-primaria: #005CFF;
+    --cor-secundaria: #E7E7EA;
+    --preto: #010101;
+    --font-principal: "Nunito";
+
+}
+
+body {
+    
+    background-color: var(--cor-de-fundo);
+    font-family: var(--font-principal);
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+
+
+
+
