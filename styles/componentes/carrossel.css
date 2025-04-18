@@ -331,6 +331,7 @@
   .card button{
     position: relative;
     margin-top: -15em;
+    margin-left: 1em;
   }
   .card img {
     width: 150px;
